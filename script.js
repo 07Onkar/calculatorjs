@@ -33,6 +33,9 @@ function calcResult() {
     else if(operators === '/'){
         sum /= number;
     }
+    else if(operators === '%'){
+      sum %= number;
+    }
   }
   resultInput.value = sum;
 }
